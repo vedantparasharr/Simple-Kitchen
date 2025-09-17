@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-header">
+                <div class="nav-center">
+                    <div class="logo">
+                        <a href="/">
+                            <img src="img/logo.png" alt="SimpleKitchen Logo">
+                        </a>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/tags.html">Tags</a></li>
+                        <li><a href="/recipes.html">Recipes</a></li>
+                    </ul>
+                    <button class="nav-toggle" type="button" aria-label="Toggle navigation">
+                        <div class="hamburger-line"></div>
+                        <div class="hamburger-line"></div>
+                        <div class="hamburger-line"></div>
+                    </button>
+                    <a class="contact" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-container">
+            <article class="contact-article">
+                <h4>Want To Get In Touch?</h4>
+                <p>Have a question about one of our recipes? Found a great variation that works even better? We'd love to hear from you!</p>
+                <p>Whether you're stuck on a cooking technique, want to share your own family recipe, or just want to say hello, we're always excited to connect with fellow home cooks.</p>
+                <p>Drop us a message and we'll get back to you as soon as we can. <strong>Happy cooking!</strong></p>
+            </article>
+            
+            <div class="contact-form">
+                <form action="https://formspree.io/f/xpwjgjzy" method="POST">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required rows="8"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Submit</button>
+                    
+                    <!-- FormSubmit configuration -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="New Contact - Simple Kitchen">
+                </form>
+            </div>
+        </section>
+        <section class="featured-recipes">
+            <p>Must try recipes for you!</p>
+            <div class="recipes-list">
+                <a href="recipes-template.html">
+                    <div class="recipe-card">
+                    <img src="img/paneer-butter-masala.jpg" alt="Rich and creamy tomato-based paneer curry">
+                    <h5>Paneer Butter Masala</h5>
+                    <div class="meta">Prep : 15min | Cook : 30min</div>
+                </div>
+                </a>
+                <a href="recipes-template.html">
+                    <div class="recipe-card">
+                    <img src="img/chole-bhature.jpg" alt="Spicy chickpea curry with fluffy fried bread">
+                    <h5>Chole Bhature</h5>
+                    <div class="meta">Prep : 30min | Cook : 45min</div>
+                </div>
+                </a>
+                <a href="recipes-template.html">
+                    <div class="recipe-card">
+                    <img src="img/masala-dosa.jpg" alt="Crispy fermented crepe filled with spiced potato mixture">
+                    <h5>Masala Dosa</h5>
+                    <div class="meta">Prep : 25min | Cook : 15min</div>
+                </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="copyright">
+            <p>&copy; 2025 Simple Kitchen Built by <a href="https://www.linkedin.com/in/vedant-parashar-4843a4233/">Vedant</a></p>
+        </div>
+    </footer>
+    <div class="page-overlay"></div>
+    <script src="script.js"></script>
+</body>
+</html>
