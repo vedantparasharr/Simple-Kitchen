@@ -39,4 +39,4 @@ Simple Kitchen aims to keep things simple and focused on the food. It’s design
 
 ---
 
-*Built by Vedant Parashar*
+*Built with ❤️ by Vedant Parashar*
